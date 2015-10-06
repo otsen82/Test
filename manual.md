@@ -6,4 +6,7 @@
 * Agradecimientos
 * Bienvenida
 * Objetivo de la Aplicacion
-* Instructivo
+* Ingresar al Sistema
+* El menu
+* Listar Productos
+* Agregar Nuevos Productos.
