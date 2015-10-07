@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Web Page Design by Ernesto R. ernst_rs@yahoo.com.mx -->
+<!-- Web Page Designed by Ernesto R. ernst_rs@yahoo.com.mx -->
 <html lang="en">
 <head>
 	<title>My Web Page</title>
@@ -14,22 +14,36 @@
 	<link rel="stylesheet" href="./css/main.css" />
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script language="javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<!-- jquery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 </head>
 <body>
 	<div id="mainMenu">
 		<div class="container">
 			<ul id="navbar" class="nav nav-tabs">
-				<li><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-gift"></span>&nbsp;Productos</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Venta</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Clientes</a></li>
-				<li class="pull-right"><a href="#"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Log Out</a></li>
-				<li class="pull-right"><a href="#"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;Help</a></li>
+				<li><a href="./index.html">
+					<span class="glyphicon glyphicon-home"></span>
+					&nbsp;Home</a></li>
+				<li><a href="#">
+					<span class="glyphicon glyphicon-gift"></span>
+					&nbsp;Productos</a></li>
+				<li><a href="#">
+					<span class="glyphicon glyphicon-shopping-cart"></span>
+					&nbsp;Venta</a></li>
+				<li><a href="#">
+					<span class="glyphicon glyphicon-user"></span>
+					&nbsp;Clientes</a></li>
+				<li class="pull-right"><a href="#">
+					<span class="glyphicon glyphicon-log-out"></span>
+					&nbsp;Log Out</a></li>
+				<li class="pull-right"><a href="#">
+					<span class="glyphicon glyphicon-question-sign"></span>
+					&nbsp;Help</a></li>
 			</ul>
 
 			<div id="midContent">
-				<!-- some code goes here -->	
+				<!-- some code goes here -->
+				<asp:placeholder ID="placeholder1" runat="server" />
 				<h1>Este es un ejemplo de contenido de la pagina web</h1>
 				<p>Loren Septum bla ble australopitecus materia oscura Loren Septum bla ble australopitecus materia oscura Loren Septum bla ble australopitecus materia oscura </p>
 			</div>
@@ -39,9 +53,31 @@
 
 	<div id="footer">
 		<div class="container">
-		<br /><br />
-		<P>Loren Septum bla ble australopitecus materia oscura Loren Septu</P>
+			<br /><br />
+			<p>
+				Netcorp Incorporated<sup>&reg;</sup><br />
+				POBOX 1345, Manhatan, 5th Ave. NY.<br />
+				<a href="./index.html" class="link">www.netcorp.com</a><br />
+				<a href="mailto:otsen82@gmail.com" class="link"><span class="glyphicon glyphicon-envelope"></span> Escribenos un email.</a>
+				<div id="social">
+					<a id="lnkFacebook" href = "https://www.facebook.com/tercermileniotv">
+						<img src="./images/Facebook.png"alt="Facebook" /></a>
+					<a href="https://twitter.com/alejodorowsky">
+						<img src="./images/Twitter.png" alt="Twitter" /></a>
+					<a href="https://plus.google.com/+AristeguiNoticias/posts">
+						<img src="./images/Google.png" alt="Google+" /></a>
+					<a href="https://ec.linkedin.com/pub/mba-ernesto-rodriguez/47/97/30">
+						<img src="./images/Linkedin.png" alt="LinkedIn" /></a>
+					<a href="https://instagram.com/hemsleyhemsley/">
+						<img src="./images/Instagram.png" alt="Instagram" /></a>
+					<a href="https://www.youtube.com/user/mundodesconocido/">
+						<img src="./images/Youtube.png" alt="YouTube" /></a>
+					<a href="skype:ernesto.rs82?chat">
+						<img src="./images/Skype.png" /></a>
+				</div>
+			</p>
 		</div>
 	</div>
+	<script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>

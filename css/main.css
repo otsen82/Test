@@ -8,6 +8,12 @@ section, aside, footer, header, article, progress, hgroup {
 body {
 	background: grey;
 }
+.link {
+	color: lightgray;
+}
+.link:hover{
+	color: #6585A8;
+}
 #mainMenu {
 	background:#fff;
 }
@@ -16,9 +22,20 @@ body {
 }
 #footer{
 	width: 100%;
-	height: 100px;
+	height: 230px;
 	border-top: 2px solid orange;
-	background: #2965A8;
+	background: #212123;
 	color: #fff;
 	text-align: center;
 }
+.container img {
+	width: 35px;
+	margin: 10px 10px;
+	-webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.container img:hover {
+	-webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
